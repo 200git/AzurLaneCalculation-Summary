@@ -1,7 +1,9 @@
 # AzurLaneCalculation-Summary
 用于收集碧蓝航线经验计算，升级所需等公式和算法。
 
-
+### 升级所需经验
+我把ExpUtils反编译成js，写了一个小demo，可以计算提升等级所需的经验：
+[经验计算器](https://200git.github.io/EXPcalculation.github.io/)(还在开发中）
 ### 后宅经验加成
 经验的加成和舒适度的关系如下：
 ```java
