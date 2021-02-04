@@ -2,7 +2,7 @@
 用于收集碧蓝航线经验计算，升级所需等公式和算法。
 
 ### 升级所需经验
-![舰船升级所需总经验对比图象](https://github.com/200git/AzurLaneCalculation-Summary/blob/main/exp.png)
+![舰船升级所需总经验对比图象](https://AzurLaneCalculation-Summary/exp.png)
 以ExpUtils为基础的HTML版本，可以计算提升等级所需的经验：
 [经验计算器](https://200git.github.io/EXPcalculation.github.io/)(还在开发中）
 ### 后宅经验加成
