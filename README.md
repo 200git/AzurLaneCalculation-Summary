@@ -2,7 +2,10 @@
 用于收集碧蓝航线经验计算，升级所需等公式和算法。
 
 ### 升级所需经验
-[![升级所需经验对比](https://200git.github.io/EXPcalculation.github.io/exp.png)](https://200git.github.io/EXPcalculation.github.io/exp.png)
+>每一级所需经验对比图象
+[![前一级提升至此级所需经验对比](https://200git.github.io/EXPcalculation.github.io/per_exp.png)](https://200git.github.io/EXPcalculation.github.io/per_exp.png)
+>升级所需总经验对比图象
+[![升级所需总经验对比](https://200git.github.io/EXPcalculation.github.io/exp.png)](https://200git.github.io/EXPcalculation.github.io/exp.png)
 以ExpUtils为基础的HTML版本，可以计算提升等级所需的经验：
 [经验计算器](https://200git.github.io/EXPcalculation.github.io/)(还在开发中）
 ### 后宅经验加成
@@ -49,7 +52,7 @@ t=s/(4*n)*15/3600
 |满汉全席（~~添加防腐剂~~）|20000|20%|6h|
 
 ### 经验跳动（每艘船每时）
->数据来自［大地母亲再忽悠着你］
+>数据来自[大地母亲再忽悠着你]
 ```java
 (l_lv*12+240)*(1+bonus_rate)*(1+buff_bonus_rate)*(mag/n);
 ```
