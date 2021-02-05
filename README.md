@@ -2,7 +2,7 @@
 用于收集碧蓝航线经验计算，升级所需等公式和算法。
 
 ### 升级所需经验
-![升级所需经验对比](https://200git.github.io/EXPcalculation.github.io/exp.png)
+[![升级所需经验对比](https://200git.github.io/EXPcalculation.github.io/exp.png)(https://200git.github.io/EXPcalculation.github.io/exp.png)]
 以ExpUtils为基础的HTML版本，可以计算提升等级所需的经验：
 [经验计算器](https://200git.github.io/EXPcalculation.github.io/)(还在开发中）
 ### 后宅经验加成
