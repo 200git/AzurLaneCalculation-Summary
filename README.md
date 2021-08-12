@@ -52,6 +52,11 @@ public class ExpUtilNew
 	}
 }
 ```
+>调用
+```java
+ExpUtilNew eun=new ExpUtilNew(true);
+int exp=eun.switchExp(119);
+```
 >极简版(只作为算法所以尽量不影响工作空间）
 ```java
 public class  EUF  {int [] mE = {0,4000,8000,11000,15000,
