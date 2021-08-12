@@ -8,6 +8,49 @@
 [![升级所需总经验对比](https://200git.github.io/EXPcalculation.github.io/exp.png)](https://200git.github.io/EXPcalculation.github.io/exp.png)
 以ExpUtils为基础的HTML版本，可以计算提升等级所需的经验：
 [经验计算器](https://200git.github.io/EXPcalculation.github.io/)(还在开发中）
+
+## java算法（已经进行一次逻辑重整，但计算器中的js代码仍是之前的逻辑）
+```java
+public class ExpUtilNew
+{
+	int [] minExp=
+	{0,4000,8000,11000,
+	15000,20000,22000,26000,
+	30000,40000,60000,132000,
+	70000,78000,85000,145000,235000};
+	//每个节点的最小经验值
+	int [] perExp=
+	{100,200,300,400,
+	500,1000,2000,4000,
+	5000,20000,72000,-62000,
+	2000,7000,12000,18000,21000};
+	int [] levels=
+	{0,41,61,71,81,91,93,95,96,98,99,100,101,105,106,111,116,120};
+	boolean isURorPRY;
+	
+	
+	//每两个节点之间的经验增长大小
+	public ExpUtilNew(boolean isURorPRY)
+	{
+		//判断是否为海上传奇或决战方案
+		this.isURorPRY=isURorPRY;
+	}
+	public int switchExp(int level)
+	{
+		int formatExp=0;
+		for(int i=0;i<(levels.length-1);i++)
+		{
+			if(level>levels[i]&&level<=levels[i+1])
+			{
+				int temp=minExp[i]+(level-levels[i])*perExp[i];
+				formatExp=!isURorPRY?temp:(int)(i>4&&i<11?temp*1.3:temp*1.2);
+				break;
+			}
+		}
+		return formatExp;
+	}
+}
+```
 ### 后宅经验加成
 经验的加成和舒适度的关系如下：
 ```java
