@@ -52,6 +52,20 @@ public class ExpUtilNew
 	}
 }
 ```
+>极简版
+```java
+public class  EUF  {int [] mE = {0,4000,8000,11000,15000,
+20000,22000,26000,30000,40000,60000,132000,70000,
+78000,85000,145000,235000};int[]pE={100,200,300,400,
+500, 1000, 2000, 4000, 5000,20000,72000,-62000,2000,
+7000,12000,18000,21000};int[]ls= {0,41,61,71,81,91,93,95,
+96,98,99,100,101,105,106,111,116,120};boolean iUP;public
+EUF(boolean iUP){this.iUP=iUP;}public  int sE (int lv) {int  fE
+=0;for (int i=0;i<(ls.length-1);i++){if(lv>ls[i]&&lv<=ls[i+1]){fE
+= !iUP ?(mE[i] + (lv - ls[i]) * pE[i]): ((i > 4 && i < 11)?(int)((mE
+[i]+(lv - ls[i]) * pE[i])*1.3):(int)((mE[i] + (lv - ls[i])*pE[i])* 1.2))
+;break;}}return fE;}}
+```
 ### 后宅经验加成
 经验的加成和舒适度的关系如下：
 ```java
