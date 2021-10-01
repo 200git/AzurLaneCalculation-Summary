@@ -63,6 +63,10 @@ ModifiedExpUtil meu=new ModifiedExpUtil(true);
 //meu=new ModifiedExpUtil(false);
 int exp=meu.switchExp(124);
 ```
+
+### 舰艇演习数据（经验书）
+待更新
+
 ### 后宅经验加成
 经验的加成和舒适度的关系如下：
 ```java
