@@ -7,7 +7,7 @@
 >升级所需总经验对比图象
 [![升级所需总经验对比](https://200git.github.io/EXPcalculation.github.io/exp.png)](https://200git.github.io/EXPcalculation.github.io/exp.png)
 以ExpUtils为基础的HTML版本，可以计算提升等级所需的经验：
-[经验计算器](https://200git.github.io/EXPcalculation.github.io/)(还在开发中）
+[经验计算器](https://200git.github.io/EXPcalculation.github.io/)(未更新！）
 
 ## java算法
 >10月1日更新调整了100-120级的经验算法并添加了125级新节点
@@ -48,7 +48,7 @@ public class ModifiedExpUtil
 			if(level>levels[i]&&level<=levels[i+1])
 			{
 				int temp=minExp[i]+(level-levels[i])*perExp[i];
-				//这里不改
+				//更新不影响此处逻辑
 				formatExp=!isURorPRY?temp:(int)(i>4&&i<11?temp*1.3:temp*1.2);
 				break;
 			}
@@ -59,8 +59,9 @@ public class ModifiedExpUtil
 ```
 >调用
 ```java
-ExpUtilNew eun=new ExpUtilNew(true);
-int exp=eun.switchExp(119);
+ModifiedExpUtil meu=new ModifiedExpUtil(true);
+//meu=new ModifiedExpUtil(false);
+int exp=meu.switchExp(124);
 ```
 ### 后宅经验加成
 经验的加成和舒适度的关系如下：
