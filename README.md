@@ -3,9 +3,9 @@
 
 ### 升级所需经验
 >每一级所需经验对比图象
-[![前一级提升至此级所需经验对比](https://200git.github.io/EXPcalculation.github.io/per_exp.png)](https://200git.github.io/EXPcalculation.github.io/per_exp.png)
+[![前一级提升至此级所需经验对比](https://200git.github.io/EXPcalculation.github.io/modified_per_exp.png)](https://200git.github.io/EXPcalculation.github.io/modified_per_exp.png)
 >升级所需总经验对比图象
-[![升级所需总经验对比](https://200git.github.io/EXPcalculation.github.io/total_exp.png)](https://200git.github.io/EXPcalculation.github.io/total_exp.png)
+[![升级所需总经验对比](https://200git.github.io/EXPcalculation.github.io/modified_exp.png)](https://200git.github.io/EXPcalculation.github.io/modified_exp.png)
 以ExpUtils为基础的HTML版本，可以计算提升等级所需的经验：
 [经验计算器](https://200git.github.io/EXPcalculation.github.io/)(未更新！）
 
