@@ -7,6 +7,7 @@
 >升级所需总经验对比图象
 [![升级所需总经验对比](https://200git.github.io/EXPcalculation.github.io/modified_exp.png)](https://200git.github.io/EXPcalculation.github.io/modified_exp.png)
 >其中红色高亮曲线为10.1更新后海上传奇与决战方案舰船（UR、PRY）经验曲线，蓝色高亮曲线为10.1更新后普通舰船（N、R、SR、SSR）经验曲线，而半透明曲线为10.1日更新前舰船经验曲线。
+
 以ExpUtils为基础的HTML版本，可以计算提升等级所需的经验：
 [经验计算器](https://200git.github.io/EXPcalculation.github.io/)(未更新！）
 
