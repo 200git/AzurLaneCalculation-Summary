@@ -15,6 +15,7 @@
 ```java
 public class ModifiedExpUtil
 {
+        //10.1更新对这三组数据有影响
 	int [] minExp=
 	{0,4000,8000,11000,
 		15000,20000,22000,26000,
@@ -27,10 +28,10 @@ public class ModifiedExpUtil
 		5000,20000,72000,-82000,
 		3000,6000,10000,15000,21000};
 	int [] levels=
-	{0,41,61,71,
+	{1,41,61,71,
 		81,91,93,95,
 		96,98,99,100,
-		101,106,111,116,121,125};
+		101,106,111,116,121,126};
 	boolean isURorPRY;
 
 
@@ -40,16 +41,27 @@ public class ModifiedExpUtil
 		//判断是否为海上传奇或决战方案
 		this.isURorPRY=isURorPRY;
 	}
+	
+	public int getTotal(int level)
+	{
+		int formatExp=0;
+		for(int i=0;i<=level;i++)
+		{
+			formatExp+=switchExp(i);
+		}
+		return formatExp;
+	}
+	
 	public int switchExp(int level)
 	{
 		int formatExp=0;
 		for(int i=0;i<(levels.length-1);i++)
 		{
-			if(level>levels[i]&&level<=levels[i+1])
+			if(level>=levels[i]&&level<levels[i+1])
 			{
 				int temp=minExp[i]+(level-levels[i])*perExp[i];
-				//更新不影响此处逻辑
-				formatExp=!isURorPRY?temp:(int)(i>4&&i<11?temp*1.3:temp*1.2);
+				//10.1更新对此处代码并无影响
+				formatExp=!isURorPRY?temp:(int)(i>4&&i<=11?temp*1.3:temp*1.2);
 				break;
 			}
 		}
