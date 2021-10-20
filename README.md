@@ -80,8 +80,8 @@ int exp=meu.switchExp(124);
 ### 舰艇演习数据（经验书）
 |演习数据类型|提供经验（每单位经验）|
 |---|---|
-|舰艇演习数据T1|3000|
-|舰艇演习数据T2|15000|
+|舰艇演习数据T1[![经验书T1](https://200git.github.io/EXPcalculation.github.io/modified_exp.png)](https://200git.github.io/EXPcalculation.github.io/exp_book_T2.png)|3000|
+|舰艇演习数据T2[![经验书T2](https://200git.github.io/EXPcalculation.github.io/modified_exp.png)](https://200git.github.io/EXPcalculation.github.io/exp_book_T1.png)|15000|
 
 ### 后宅经验加成
 经验的加成和舒适度的关系如下：
