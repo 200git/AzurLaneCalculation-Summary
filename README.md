@@ -9,7 +9,7 @@
 >其中红色高亮曲线为10.1更新后海上传奇与决战方案舰船（UR、PRY）经验曲线，蓝色高亮曲线为10.1更新后普通舰船（N、R、SR、SSR）经验曲线，而半透明曲线为10.1日更新前舰船经验曲线。
 
 以ExpUtils为基础的HTML版本，可以计算提升等级所需的经验：
-[经验计算器](https://200git.github.io/EXPcalculation.github.io/)(未更新！）
+[经验计算器](https://200git.github.io/EXPcalculation.github.io/)
 
 ## java算法
 >10月1日更新调整了100-120级的经验算法并添加了125级新节点。已经进行一次逻辑重整，但计算器中的js代码仍是之前的逻辑。
@@ -80,8 +80,8 @@ int exp=meu.switchExp(124);
 ### 舰艇演习数据（经验书）
 |演习数据类型|提供经验（每单位经验）|
 |---|---|
-|舰艇演习数据T1[![经验书T1](https://200git.github.io/EXPcalculation.github.io/exp_book_T1.jpg)](https://200git.github.io/EXPcalculation.github.io/exp_book_T1.jpg)|3000|
-|舰艇演习数据T2[![经验书T2](https://200git.github.io/EXPcalculation.github.io/exp_book_T2.jpg)](https://200git.github.io/EXPcalculation.github.io/exp_book_T2.jpg)|15000|
+|舰艇演习数据T1 <img src="https://200git.github.io/EXPcalculation.github.io/exp_book_T1.jpg" width = "50" height = "50" alt="" align=center />|3000|
+|舰艇演习数据T2 <img src="https://200git.github.io/EXPcalculation.github.io/exp_book_T2.jpg" width = "50" height = "50" alt="" align=center />|15000|
 
 ### 后宅经验加成
 经验的加成和舒适度的关系如下：
