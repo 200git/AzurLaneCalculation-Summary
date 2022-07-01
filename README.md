@@ -96,8 +96,9 @@ bonus_rate=c_lv/(c_lv+100);
 ```java
 t=s/(4*n)*15/3600
 ```
-[![以驱逐舰为例的经验跳动](https://200git.github.io/EXPcalculation.github.io/exp_bounce.png)](https://200git.github.io/EXPcalculation.github.io/exp_bounce.png)
+>[![以驱逐舰为例的经验跳动](https://200git.github.io/EXPcalculation.github.io/exp_bounce.png)](https://200git.github.io/EXPcalculation.github.io/exp_bounce.png)
 >以驱逐舰为例的经验跳动
+
 根据上边的公式，能得出以下存粮时间关系，~~方便摸鱼~~。
 
 #### 以单艘舰船为基数
